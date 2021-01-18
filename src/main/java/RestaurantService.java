@@ -9,7 +9,7 @@ public class RestaurantService {
         for(int i=0;i<restaurants.size();i++)
         {
             Restaurant temp = restaurants.get(i);
-            if(Restaurant.name == retaruentName) {
+            if(Restaurant.getName().equals(retaruentName)) {
                 return temp;
             }
         }
