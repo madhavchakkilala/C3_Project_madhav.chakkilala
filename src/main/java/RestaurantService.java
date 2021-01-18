@@ -13,7 +13,7 @@ public class RestaurantService {
                 return temp;
             }
         }
-        return null;
+        throw new restaurantNotFoundException();
     }
 
 
